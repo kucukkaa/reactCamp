@@ -8,7 +8,7 @@ export default function ProductList() {
 
   useEffect(()=>{
     let productService = new ProductService()
-    productService.getProdcuts().then(result=>setProducts(result.data.data))
+    productService.getProdcuts().then((result)=>setProducts(result.data.data))
   },[])
 
   return (
