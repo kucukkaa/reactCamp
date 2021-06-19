@@ -1,1 +1,1 @@
-export const cartItems=[{quantity:1, product:{productName:"çubuk karaker"}}]
+export const cartItems=[]
